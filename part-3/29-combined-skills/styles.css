@@ -44,15 +44,14 @@ span.author {
   font-weight: bolder;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 992px) {
   .hero__image {
-    width: 80%;
-    margin: 0px auto 70px;
+    display: flex;
+    margin: 0;
   }
-  .hero__title,
-  .hero__author,
-  .hero__time {
-    position: fixed;
+  .hero__title {
+    margin-left: 100px;
+    margin-top: 250px;
   }
 }
 
@@ -65,8 +64,6 @@ li.main-nav__list-item a {
 .main-nav__list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 20%;
 }
 
 nav.main-nav__list > li.main-nav__list-item {
