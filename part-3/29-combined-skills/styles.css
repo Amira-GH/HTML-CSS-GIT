@@ -1,1 +1,92 @@
 /* Add your own CSS code below */
+span.heart {
+  color: #c85308;
+}
+
+.hero {
+  position: relative;
+  color: white;
+}
+
+.hero__title {
+  position: absolute;
+  color: white;
+  top: 8px;
+  left: 20px;
+  margin-top: 250px;
+  width: 750px;
+  font-size: 40px;
+  margin-left: 100px;
+  font-weight: normal;
+}
+
+.hero__author {
+  position: absolute;
+  color: white;
+  top: 2px;
+  left: 20px;
+  margin-top: 410px;
+  margin-left: 100px;
+  font-style: italic;
+}
+
+.hero__time {
+  position: absolute;
+  color: white;
+  top: 2px;
+  left: 20px;
+  margin-top: 450px;
+  margin-left: 100px;
+  font-weight: bolder;
+}
+
+span.author {
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 992px) {
+  .hero__image {
+    width: 80%;
+    margin: 0px auto 70px;
+  }
+  .hero__title,
+  .hero__author,
+  .hero__time {
+    position: fixed;
+  }
+}
+
+li.main-nav__list-item a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bolder;
+}
+
+.main-nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20%;
+}
+
+nav.main-nav__list > li.main-nav__list-item {
+  overflow: hidden;
+}
+
+.site-search__input {
+  width: 10%;
+  height: 25px;
+  border-color: blue;
+}
+
+fieldset {
+  width: 17%;
+}
+
+.main-article {
+  max-width: 50em;
+  display: flexbox;
+  align-self: center;
+  margin-left: 250px;
+  line-height: 2em;
+}
